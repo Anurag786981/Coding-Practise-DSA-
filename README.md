@@ -1,0 +1,6 @@
+- Arrays (basic to intermediate)
+- Covered problems:
+  - Max/Min
+  - Reverse Array
+  - Second Largest
+  - Unique Element using XOR
