@@ -1,18 +1,15 @@
 package org.example;
 
+import org.example.arrays.FindUniqueXor;
+import org.example.arrays.SecondLargest;
+
 import java.util.Arrays;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
 
-    int findUnique(int[] arr) {
-        int n = 0;
-        for (int i = 0; i <= arr.length - 1; i++) {
-            n = n ^ arr[i];
-        }
-        return n;
-    }
+
 // finding duplicate array
     static int findDuplicate(int[] arr) {
         int xor = 0;
@@ -125,9 +122,9 @@ public class Main {
 
         Main obj = new Main();
 
-        int uniqueNumber = obj.findUnique(a);
 
-        System.out.println("Unique Number" + uniqueNumber);
+
+
 
 
         int d = Main.findDuplicate(arr);
@@ -149,6 +146,9 @@ public class Main {
         findSecondlargestElement(secondlargerstArray);
 
         SecondLargest.findSecondLargestElementWithoutSorting();
+        int findUnique = FindUniqueXor.findUnique(a);
+        System.out.println(findUnique);
+
 
     }
 }

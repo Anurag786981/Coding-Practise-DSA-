@@ -1,8 +1,8 @@
-package org.example;
+package org.example.arrays;
 
 public class SecondLargest {
 
-    static void findSecondLargestElementWithoutSorting(){
+    public static void findSecondLargestElementWithoutSorting(){
         int [] arr={2,4,6,1,3};
 
         // take two variable
