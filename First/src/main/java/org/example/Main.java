@@ -1,7 +1,6 @@
 package org.example;
 
-import org.example.arrays.FindUniqueXor;
-import org.example.arrays.SecondLargest;
+import org.example.arrays.*;
 
 import java.util.Arrays;
 
@@ -127,7 +126,7 @@ public class Main {
 
 
 
-        int d = Main.findDuplicate(arr);
+      /*  int d = Main.findDuplicate(arr);
 
         System.out.println("Duplicate number is " + d);
 
@@ -147,7 +146,19 @@ public class Main {
 
         SecondLargest.findSecondLargestElementWithoutSorting();
         int findUnique = FindUniqueXor.findUnique(a);
-        System.out.println(findUnique);
+        System.out.println(findUnique);*/
+
+        int arr1 [] ={1,1,2,2,3,3};
+        DuplicateFromSortedArray.removeDuplicateFromSortedArray(arr1);
+
+        if (PalindromeArray.isPalindrome()){
+            System.out.println("Given array is Palindrome");
+        }else {
+            System.out.println("Not palindrome");
+        }
+
+        LeaderElementToRight.findLeaderNumber();
+        RunningMaximum.replaceNextElementWithSameIfGreater();
 
 
     }
