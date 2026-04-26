@@ -1,4 +1,5 @@
 - Arrays (basic to intermediate)
+- Refer Programming for Alogo question like Dutch national and moore Voting 
 - Covered problems:
   - Max/Min
   - Reverse Array
