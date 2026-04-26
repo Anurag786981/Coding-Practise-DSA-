@@ -184,8 +184,11 @@ public class Main {
 
         //  TwoSumArray.twoSumIndex();
         //  HashmapProblem.firstNonRepeatingElement();
-        HashmapProblem.findMajorityElement();
-        HashmapProblem.mooreVotingAlgo();
+       // HashmapProblem.findMajorityElement();
+       // HashmapProblem.mooreVotingAlgo();
+
+       // KadanesMaximumSumSubArray.kadanesMaximumSumSubArray();
+        KadanesMaximumSumSubArray.kadanesProductmaxumumSubArray();
 
     }
 }
