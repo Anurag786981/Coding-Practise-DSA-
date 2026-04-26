@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.Hashing.HashmapProblem;
 import org.example.arrays.*;
 
 import java.util.Arrays;
@@ -119,13 +120,6 @@ public class Main {
 
         // Unique element using XOR
 
-        Main obj = new Main();
-
-
-
-
-
-
       /*  int d = Main.findDuplicate(arr);
 
         System.out.println("Duplicate number is " + d);
@@ -148,18 +142,50 @@ public class Main {
         int findUnique = FindUniqueXor.findUnique(a);
         System.out.println(findUnique);*/
 
-        int arr1 [] ={1,1,2,2,3,3};
+       /* int arr1 [] ={1,1,2,2,3,3};
         DuplicateFromSortedArray.removeDuplicateFromSortedArray(arr1);
 
         if (PalindromeArray.isPalindrome()){
             System.out.println("Given array is Palindrome");
         }else {
             System.out.println("Not palindrome");
-        }
+        }*/
 
-        LeaderElementToRight.findLeaderNumber();
-        RunningMaximum.replaceNextElementWithSameIfGreater();
+       /* LeaderElementToRight.findLeaderNumber();
+        RunningMaximum.replaceNextElementWithSameIfGreater();*/
 
+        /* for (int i = 1; i <= 5; i++) {
+
+            System.out.print( i +" ");
+        }*/
+
+        // SquareAndTriangle.square();
+        //SquareAndTriangle.traiangle();
+        //  SquareAndTriangle.invertedTriangle();
+        //  SquareAndTriangle.pyramid();
+        //SquareAndTriangle.diamond();
+        // SquareAndTriangle.starC();
+        // SquareAndTriangle.digonalSquare();
+        // SquareAndTriangle.hollowTriangle();
+
+        //Arrays Call
+        //  ArrayPractise.printArray();
+        // ArrayPractise.findLargestElementinArray();
+        // ArrayPractise.moveZerosToEnd();
+        // ArrayPractise.removeDuplicateFromArray();
+        // ArrayPractise.findTheSecondSmallest();
+        // ArrayPractise.countZero();
+        // ArrayPractise.moveNegativeNumberToZero();
+       /*if (TwoSumArray.twoSumPointer()){
+           System.out.println("Found Sum");
+       }else{
+           System.out.println("Not Found Sum");
+       }*/
+
+        //  TwoSumArray.twoSumIndex();
+        //  HashmapProblem.firstNonRepeatingElement();
+        HashmapProblem.findMajorityElement();
+        HashmapProblem.mooreVotingAlgo();
 
     }
 }
