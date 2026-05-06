@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.Hashing.HashmapProblem;
 import org.example.arrays.*;
+import org.example.arrays.Strings.ReverseString;
 
 import java.util.Arrays;
 
@@ -188,7 +189,14 @@ public class Main {
        // HashmapProblem.mooreVotingAlgo();
 
        // KadanesMaximumSumSubArray.kadanesMaximumSumSubArray();
-        KadanesMaximumSumSubArray.kadanesProductmaxumumSubArray();
+       // KadanesMaximumSumSubArray.kadanesProductmaxumumSubArray();
+        /*ReverseString.reverseThroughLoop();
+        ReverseString.reverseUsingStringBuilder();*/
+       // ReverseString.reverseUSingTwoPointer();
+       // ReverseString.reverseHalfString();
+        ReverseString.pallindrome();
+        ReverseString.optimisedPalindrome();
+
 
     }
 }
